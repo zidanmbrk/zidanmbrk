@@ -1,276 +1,239 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Muhammad Zidan Mubarok </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
-    <!-- My CSS -->
-    <link rel="stylesheet" href="style.css">
 
-    <!-- My font / awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
 
+<body style="background-color: rgb(177, 93, 24);">
+  <!--header start-->
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid text-bg-dark">
+      <img src="img/hot-dog.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
 
-  </head>
-  <body class="bg-danger">
-    <div class="container mb-5 mt-5">
-        <div class="card text-center">
-  <div class="card-header"> Football Player </div>
-  <div class="card-body px-4 py-4">
-    <img src="image/gambar pemain.jpg" alt="Jamal" width="30%" height="25%" class="rounded-circle border border-5">
-    <h5 class="card-title"> Jamal Musiala </h5>
-    <p class="card-text">Jamal Musiala adalah pemain sepak bola profesional Jerman-Inggris yang bermain sebagai gelandang serang untuk klub Bundesliga Bayern Munich dan tim nasional Jerman. Dianggap sebagai salah satu pemain muda terbaik di dunia.</p>
-    <a href="#" class="btn btn-primary"> Profile </a>
-  </div>
-  <div class="card-footer bg-white fs-5">
-    <a href="http://facebook.com" class="text-secondary"> <i class="fa-brands fa-facebook"></i> jamal musiala</a> 
-    <a href="http://instagram.com" class="text-secondary"> <i class="fa-brands fa-instagram"></i>jamalmusiala10 </a> 
-    
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#form">Form Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#kontak">Kontak</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
 
-</div>
-
-
-</div>
-<div class="card mb-5 mt-5">
-    <ul class="listgroup list-group-flush">
-
-        <li class="list-group-item">
-            <div class="row">
-                <div class="col-4"> Nama </div>
-                <div class="col-8"> Jamal Musiala </div>
-            </div>
-        </li>
-        <li class="list-group-item">
-            <div class="row">
-                <div class="col-4"> Kelahiran </div>
-                <div class="col-8"> 26 Februari 2003, Stuttgart, Jerman </div>
+          <li class="nav-item">
+            <a class="nav-link disabled text-light" aria-disabled="true">Disabled</a>
+          </li> -->
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-        </li>
-        <li class="list-group-item">
-          <div class="row">
-              <div class="col-4"> Tim saat ini </div>
-              <div class="col-8"> FC Bayern Munchen (#42/Penyerang) </div>
+  </nav>
+  <!--header end-->
+  <!--title start-->
+  <div class="card text-bg-dark" id="hero">
+    <img src="img/wallpaperflare.com_wallpaper (2).jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h1 aria-label="Hi! I'm a developer">
+        WELLCOME TO&nbsp;<span class="typewriter thick"></span>
+      </h1>
+      <p class="card-text fs-4">Melayani Disaat Anda Lapar Dan Mau Bayar.</p>
+      <p class="card-text fs-5"><small>developer by Barok</small></p>
+      <button type="button mt-6" class="btn btn-warning ">Beli Sekarang</button>
+    </div>
   </div>
-      </li>
-      <li class="list-group-item">
-        <div class="row">
-            <div class="col-4"> Orang Tua </div>
-            <div class="col-8"> Carolin Musiala dan Daniel Richard </div>
-</div>
-    </li>
-    <li class="list-group-item">
-      <div class="row">
-          <div class="col-4"> Pendidikan </div>
-          <div class="col-8"> Whitgift School </div>
-</div>
-  </li>
-  <li class="list-group-item">
-    <div class="row">
-        <div class="col-4"> Tinggi </div>
-        <div class="col-8"> 1,84 m </div>
-</div>
-</li>
-<li class="list-group-item">
-  <div class="row">
-      <div class="col-4"> Kebangsaan </div>
-      <div class="col-8"> Britania Raya, Inggris, Jerman </div>
-</div>
-</li>
-        </div>
+  <!--title end-->
+  <div class="container" id="menu">
+    <!--card start-->
+    <div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
+      <div class="col ">
         <div class="card">
-            <div class="card-header"> Skill  </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    <p>
-                        Kontrol Bola
-                    </p>
-                    <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar progress-bar-striped bg-success" style="width: 95%"></div>
-                  </li>
-                  <li class="list-group-item">
-                    <p>
-                       Dribel 
-                    </p>
-                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar progress-bar-striped bg-success" style="width: 95%"></div>
-                  </li>
-                  <li class="list-group-item">
-                    <p>
-                        Dribel Akurat
-                    </p>
-                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar progress-bar-striped bg-success" style="width: 99%"></div>
-                      </div>
-                      </li>
-                      <li class="list-group-item">
-                        <p>
-                           Kesadaran Menyerang
-                        </p>
-                        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar progress-bar-striped bg-success" style="width: 80%"></div>
-                      </li>
-                      <li class="list-group-item">
-                        <p>
-                           Umpan Rendah 
-                        </p>
-                        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar progress-bar-striped bg-success" style="width: 92%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Umpan Lambung
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 82%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Penyelesaian
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 77%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Sundulan
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 57%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Eksekusi Bola Mati
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 72%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Lengkungan
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 79%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Kesadaran Bertahan
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 61%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Menekel 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 56%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Agresi 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 64%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Keterlibatan Bertahan 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 71%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Kesadaran Kiper 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 41%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Tangkapan Kiper 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 41%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Tepisan Kiper 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 41%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Refleks Kiper 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 41%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Jangkauan Kiper 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 41%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Kecepatan 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 86%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Akselerasi 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 95%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Kekuatan Tendangan 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 78%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Melompat 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 67%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Kontak Fisik 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 54%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Keseimbangan 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 89%"></div>
-                        </li>
-                        <li class="list-group-item">
-                          <p>
-                             Stamina 
-                          </p>
-                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar progress-bar-striped bg-success" style="width: 80%"></div>
-                        </li>
-                  
-                </ul>
-        
+          <img src="img/wallpaperflare.com_wallpaper (3).jpg" class="card-img-top" alt="...">
+          <div class="card-body text-bg-dark text-light">
+            <h5 class="card-title">PAKET ROMBONGAN</h5>
+            <p class="card-text">Cukup untuk 4-5 orang,dengan kombinasi paket lengkap.</p>
+          </div>
         </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/wallpaperflare.com_wallpaper (4).jpg" class="card-img-top" alt="...">
+          <div class="card-body text-bg-dark text-light">
+            <h5 class="card-title">PAKET HEMAT</h5>
+            <p class="card-text">Paket dengan harga murah dan mengennyangkan buat yang sedang hemat.</p>
+          </div>
+        </div>
+      </div>
+      <!--card end-->
+
+    </div>
+    <!--card text start-->
+    <div class="card text-center bg-dark mt-3 text-light">
+      <div class="card-header">
+        MENU
+      </div>
+      <div class="card-body bg-dark text-light">
+        <h5 class="card-title">Pilihan menu yang tersedia</h5>
+        <p class="card-text">Berbagai jenis ukuran hot dog yang tersedia.</p>
+        
+      </div>
+     
+    </div>
+    <!--card text end-->
+    <!--card group start-->
+    <div class="card-group">
+      <div class="card bg-dark text-light">
+        <img src="img/wallpaperflare.com_wallpaper (5).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Small Hot Dog</h5>
+          <p class="card-text">Bagi ciwi-ciwi yang tidak suka makan banyak.</p>
+          <button type="button mt-4" class="btn btn-warning">Tumbas lek</button>
+        </div>
+       
+      </div>
+      <div class="card bg-dark text-light">
+        <img src="img/wallpaperflare.com_wallpaper (6).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Medium Hot Dog</h5>
+          <p class="card-text"> Bagi yang suka makan tidak terlalu kenyang dan pas untuk mengganjal perut.</p>
+          <button type="button mt-9" class="btn btn-warning">Tumbas lek</button>
+        </div>
+        
+      </div>
+      <div class="card bg-dark text-light">
+        <img src="img/wallpaperflare.com_wallpaper (7).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hot Dog Super</h5>
+          <p class="card-text">Bagi para manusia yang suka makan brutal dan bar-bar.</p>
+          <button type="button mt-4" class="btn btn-warning">Tumbas lek</button>
+        </div>
+       
+      </div>
+    </div>
+    <!--card group end-->
+    <!--card pic start-->
+    <div class="card mb-3 mt-3 bg-dark text-light">
+      <img src="img/wallpaperflare.com_wallpaper (2).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Segera direadykan</h5>
+        <p class="card-text">Hot Dog yang kaya akan rempah-rempah yang berasal dari PRINDAPAN.
+          Entine readyne bae lekk!!!.</p>
+       
+      </div>
+    </div>
+    <!--card gift end-->
+    <!--form start-->
+    <div class="wrapper" id="form">
+      <div class="logo">
+        <img src="img/hot-dog.png" alt="">
+      </div>
+      <div class="text-center mt-4 name">
+        BAR HOT DOG
+      </div>
+      <form class="p-3 mt-3">
+        <div class="form-field d-flex align-items-center">
+          <span class="far fa-user"></span>
+          <input type="text" name="userName" id="userName" placeholder="Username">
+        </div>
+        <div class="form-field d-flex align-items-center">
+          <span class="fas fa-key"></span>
+          <input type="password" name="password" id="pwd" placeholder="Password">
+        </div>
+        <button class="btn mt-3 text-light">Mahok</button>
+      </form>
+      <div class="text-center fs-6">
+        <a href="#">Forget password?</a> or <a href="#">Sign up</a>
+      </div>
+    </div>
+    <!--form end-->
+    <div class="d-flex flex-column h-100">
+
+      <!-- FOR DEMO PURPOSE -->
+      <section class="hero text-white py-5 flex-grow-1">
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="display-4">Di Tumbasi ra Lek!!!!!</h1>
+              <p class="fst-italic text-muted">MBOTEN TUMBAS MANGKE NGELEH,DITUMBASI LEK!!!!</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+      <!-- FOOTER -->
+      <footer class="w-100 py-4 flex-shrink-0" id="kontak">
+        <div class="container py-4">
+          <div class="row gy-4 gx-5">
+            <div class="col-lg-4 col-md-6">
+              <h5 class="h1 text-white">About Me</h5>
+              <p class="small  text-white">Banyak promo yang menarik,langsung orderin saja.</p>
+              <p class="small text-muted mb-0">&copy; BAROK. All rights reserved. </p>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <h5 class="text-white mb-3">Contact</h5>
+              <ul class="list-unstyled text-muted">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">+1 890 537 554</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <h5 class="text-white mb-3">Quick links</h5>
+              <ul class="list-unstyled text-muted">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">+1 890 537 554</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h5 class="text-white mb-3">Massege</h5>
+              <p class="small text-light">Terimakasih sudah membeli,jika ada keluh kesah atas pelayanan yang kurang berkenan,silahkan berkomentar dibawah ini.</p>
+              <form action="#">
+                <div class="input-group mb-3">
+                  <input class="form-control" type="text" placeholder="Recipient's username"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-primary" id="button-addon2" type="button"><i
+                      class="fas fa-paper-plane"></i></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+</body>
+
 </html>
